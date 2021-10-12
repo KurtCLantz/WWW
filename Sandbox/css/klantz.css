@@ -1,0 +1,99 @@
+/*
+  File:         klantz.css
+  Organization: Texas A&M University - Division of IT
+  Author:       Kurt Lantz
+  
+  Revision  Date        Editor    Explanation
+  --------  ----------  --------  ---------------------------------------------
+  1.1       2021-09-20  klantz    Initial Release (Working)
+*/
+
+
+body {
+  background-color: #FFFFFF;                        /* White */
+  color: #000000;                                   /* Black */
+  font-family: arial, verdana, helvetica, sans-serif;
+  font-size: 12px; 
+}
+
+
+#masthead {
+  background: #4A1010;                              /* Maroon */
+  float: left;
+  height: 56px;
+  width: 100%;
+}
+
+#site-title {
+  color: #FFFFFF;                                   /* White */
+  font-size: 2em;
+  font-weight: bold;
+  left: 25px;
+  margin-top: 0.5em;
+  position: absolute;
+  top: 10px;
+}
+
+
+#title-nav {
+  color: #FFFFFF;                                   /* White */
+  font-weight: bold;
+  position: absolute; 
+  right: 14px;
+  top: 40px;
+}
+#title-nav a {
+  color: #FFFFFF;                                   /* White */
+  padding: 0 .25em .1em .5em;
+  text-decoration: none;
+}
+#title-nav a:hover {
+  color: #CCCCCC;                                   /* Gray */
+  text-decoration: underline;
+}
+#title-nav a#index {
+}
+#title-nav a#aip {
+  border-left: 1px solid #FFFFFF;
+  margin-left: 1px;
+}
+#title-nav a#ttvn {
+  border-left: 1px solid #FFFFFF;
+  margin-left: 1px;
+}
+#title-nav a#ip-table {
+  border-left: 1px solid #FFFFFF;
+  margin-left: 1px;
+}
+
+
+#content {
+  background: #FFFFFF;                              /* White */
+  float: left;
+  font-size: 1em; 
+  width: 100%;
+}
+
+
+
+
+
+#footer {
+  background-color: #4A1010;                        /* Maroon */
+  clear: both;
+  color: #FFFFFF;                                   /* White */
+  float: left;
+  font-family: arial,verdana,helvetica,sans-serif;  /* font-size: .75em; */
+  font-size: 1em;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+#footer a:link, #footer a:visited {
+  background-color: inherit;
+  color: #ffffff;                                   /* White */
+  text-decoration: none;
+}
+#footer a:hover {
+  text-decoration: underline; 
+}
